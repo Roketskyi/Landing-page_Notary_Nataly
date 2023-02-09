@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Open+Sans&display=swap');
+
+html {
+    font-family: 'Lora', serif;
+}
+
+/* @media only screen and (max-width: 768px) {    
+    
+}
+
+@media only screen and (min-width: 768px) {
+    
+} */
+
+header {
+    display: flex;
+    justify-content: center;
+    
+    background-color: #fff;
+    padding: 2.5rem 0;
+}
+
+.menu-btn {
+    display: inline;
+    margin: 0 16px 0 0;
+    user-select: none;
+
+    cursor: pointer;
+}
+
+.menu-btn a {
+    text-decoration: none;
+    color: #000; 
+}
+
+.active a, .menu-btn a:hover {
+    color: #c8ac48;
+    transition: All 0.2s ease;
+}
+

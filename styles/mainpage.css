@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+::selection {
+    background-color: #c8ac48;
+    color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .info-notary {
+        background-color: #304771;
+        color: white;
+    
+        padding: 5rem 0;
+        text-align: center;
+    }
+
+    .info-notary-two {
+        background-color: #4a6496;
+        color: white;
+    
+        padding: 3rem 0;
+        text-align: center;
+    }
+
+    .info-notary p.info-notary-first {
+        font-size: 1.05rem;
+        padding: 0 0 0.8rem 0;
+    }
+
+    .info-notary p.name {
+        font-size: 1.8rem;
+    }
+
+    .about-notary {
+        margin: 4rem 0 6rem 0;
+
+        width: 100%;
+    }
+
+    .about-text {    
+        margin: 0 2rem;
+    }
+
+    .about-img {
+        display: flex;
+        justify-content: center;
+    
+        margin-top: 2rem;
+    
+        overflow: hidden;
+    }
+
+    .about-img img {
+        height: auto;
+    }
+
+    .info-notary-p {
+        font-size: 1.05rem;
+        padding: 0 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .info-notary {
+        background-color: #304771;
+        color: white;
+    
+        padding: 5rem 0;
+        text-align: center;
+    }
+
+    .info-notary-two {
+        background-color: #4a6496;
+        color: white;
+    
+        padding: 4rem 0;
+        text-align: center;
+    }
+
+    .info-notary p.info-notary-first {
+        font-size: 1.4rem;
+        padding: 0 0 1rem 0;
+    }
+
+    .info-notary p.name {
+        font-size: 2.5rem;
+    }
+
+    .about-notary {
+        margin: 4rem 0 6rem 0;
+    
+        display: flex;
+        width: 100%;
+    }
+
+    .about-text {
+        flex-basis: 50%;
+        
+        font-size: calc(0.6rem + 1vh);
+
+        margin-left: 8rem;
+    }
+
+    .about-img {
+        flex-basis: 50%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    
+        margin-right: 6rem;
+    
+        overflow: hidden;
+    }
+
+    .info-notary-p {
+        font-size: calc(0.6rem + 0.8vw);
+        padding: 0 2.5rem;
+    }
+}
+
+body {
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../images/background/background.jpg'); */
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-position: center;
+    height: 100vh;
+}
+
+.info-notary img {
+    padding: 2rem 0 0.4rem 0;
+}
+
+.info-notary a {
+    color: #fff;
+}
+
+.about-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-notary p {
+    text-align: justify;
+    color: #3a3a3a;
+}
+
+.notarial-acts {
+    color: #3a3a3a;
+    background-color: #f4f4f4;
+
+    padding: 4rem 0;
+
+    font-size: 1.4rem;
+}
+
+.notarial-acts-div {
+    text-align: left;
+    margin: 0 4rem;
+}
+
+.notarial-acts-div p {
+    margin-bottom: 0.8rem;
+}

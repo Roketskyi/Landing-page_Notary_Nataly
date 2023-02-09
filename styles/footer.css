@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,700&display=swap');
+
+@media only screen and (max-width: 768px) {
+    .footer-p {
+        margin-bottom: 6px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-p {
+        margin-bottom: 6px;
+        font-size: calc(0.3rem + 1vw);
+    }
+    
+    .contactsStreet {
+        font-size: calc(0.3rem + 1vw);
+    }
+}
+
+footer {    
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: black; 
+    width: 100%;
+}
+
+.contacts {
+    padding: 1px 28px 18px 32px;
+    background-color:#e4e4e4;
+    font-size: 16px;
+}
+
+.divGoogleMaps {
+    border: 0;
+    height: 400px;
+    overflow: hidden;
+}
+
+.contactsStreet {
+    margin: 1rem 0 1rem 0;
+}
+
+footer a {
+    color: #677eff;
+}
