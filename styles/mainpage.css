@@ -7,15 +7,15 @@
 
 @media only screen and (max-width: 768px) {
     .info-notary {
-        background-color: #304771;
+        background-color: #804030;
         color: white;
     
-        padding: 5rem 0;
+        padding: 6.5rem 0 5rem 0;
         text-align: center;
     }
 
     .info-notary-two {
-        background-color: #4a6496;
+        background-color: #804030;
         color: white;
     
         padding: 3rem 0;
@@ -66,7 +66,8 @@
 
 @media only screen and (min-width: 768px) {
     .info-notary {
-        background-color: #304771;
+        /* background-color: #304771; */
+        background-color: #804030;
         color: white;
     
         padding: 8rem 0 5rem 0;
@@ -74,7 +75,7 @@
     }
 
     .info-notary-two {
-        background-color: #4a6496;
+        background-color: #804030;
         color: white;
     
         padding: 4rem 0;
@@ -118,12 +119,12 @@
     }
 
     .info-notary-p {
-        font-size: calc(0.6rem + 0.7vw);
+        font-size: calc(0.5rem + 0.6vw);
         padding: 0 2.5rem;
     }
 
     .collapsible {
-        font-size: calc(0.6rem + 0.6vw);
+        font-size: calc(0.7rem + 0.6vw);
     }
 }
 
@@ -159,7 +160,7 @@ body {
     color: #3a3a3a;
     background-color: #f4f4f4;
     
-    font-size: calc(0.72rem + 0.72vw);
+    font-size: calc(0.75rem + 0.45vw);
 
     padding: 4rem calc(2rem + 3vw);
     

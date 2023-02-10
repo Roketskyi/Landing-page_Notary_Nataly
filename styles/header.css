@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400&family=Open+Sans&display=swap');
+
 * {
     font-family: 'Lora', serif;
     
@@ -34,18 +35,18 @@
 }
 
 #menu-toggle-btn {
-  background-color: #c8ac48; /* цвет кнопки */
-  color: #fff; /* цвет текста */
-  padding: 10px 20px; /* размеры полей */
-  border-radius: 25px; /* радиус закругления */
-  cursor: pointer; /* вид курсора при наведении */
+  background-color: #c8ac48;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px; 
+  cursor: pointer; 
   transition: all 0.3s ease;
 }
 
 #menu-toggle-btn.active {
-  background-color: #fff; /* цвет кнопки */
-  color: #c8ac48; /* цвет текста */
-  box-shadow: 0 2px 4px rgba(200, 172, 72, 0.5); /* тень */
+  background-color: #fff;
+  color: #c8ac48;
+  box-shadow: 0 2px 4px rgba(200, 172, 72, 0.5);
 }
 
 
@@ -85,47 +86,3 @@ header {
     transition: all 0.2s ease;
     border-radius: 25px;
 }
-
-/* html {
-    font-family: 'Lora', serif;
-}
-
-@media only screen and (max-width: 768px) {
-    .menu-btn {
-        display: block;
-        margin: 0;
-        text-align: center;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .menu-btn {
-        display: inline;
-        margin: 0 16px 0 0;
-        user-select: none;
-    
-        cursor: pointer;
-    }
-}
-
-
-header {
-    display: flex;
-    justify-content: center;
-    
-    background-color: #fff;
-    padding: 2.5rem 0;
-}
-
-
-
-.menu-btn a {
-    text-decoration: none;
-    color: #000; 
-}
-
-.active a, .menu-btn a:hover {
-    color: #c8ac48;
-    transition: All 0.2s ease;
-}
- */

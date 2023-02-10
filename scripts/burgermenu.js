@@ -5,6 +5,6 @@ toggleBtn.addEventListener("click", function() {
     if (window.innerWidth < 768) {
         headerMenu.style.display = headerMenu.style.display === "none" ? "" : "none";
     }
-
+    
     toggleBtn.classList.toggle("active");
 });
