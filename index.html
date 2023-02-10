@@ -16,8 +16,9 @@
     <link rel="stylesheet" type="text/css" href="styles/footer.css">
 
     <script async src="./scripts/insert-div.js?ver=0.0.1"></script>
-    <script async src="./scripts/header-btn.js"></script>
     <script async src="./scripts/smooth-show.js"></script>
+    <script async src="./scripts/list-buttons.js"></script>
+    <script async src="./scripts/burgermenu.js"></script>
 
     <style>
         * {
@@ -29,12 +30,13 @@
 </head>
 <body>
     <div class="background-image"></div>
-    <header>            
+    <header id="header">            
+        <button id="menu-toggle-btn">Menu</button>
         <ul id="header-menu">
-            <li class="menu-btn active"><a href="./index.html" style="font-size: 1.2rem;">Головна</a></li>
-            <li class="menu-btn "><a href="#info-notary"  style="font-size: 1.2rem;">Про нотаріуса</a></li>
-            <li class="menu-btn "><a href="#notarial-acts"  style="font-size: 1.2rem;">Нотаріальні дії</a></li>
-            <li class="menu-btn "><a href="#contacts"  style="font-size: 1.2rem;">Місцезнаходження</a></li>
+          <li class="menu-btn " style="border-bottom: #c8ac48 2px solid; padding-bottom: 0.5%;"><a href="./index.html" style="font-size: 1.2rem;">Головна</a></li>
+          <li class="menu-btn "><a href="#info-notary"  style="font-size: 1.2rem;">Про нотаріуса</a></li>
+          <li class="menu-btn "><a href="#notarial-acts"  style="font-size: 1.2rem;">Нотаріальні дії</a></li>
+          <li class="menu-btn "><a href="#contacts"  style="font-size: 1.2rem;">Місцезнаходження</a></li>
         </ul>
     </header>
     
@@ -85,12 +87,76 @@
         </div>
         
         <div class="notarial-acts">
-            <p style="font-size: 2.2rem; text-align: center; margin-bottom: 2rem;">Нотаріальні Дії</p>
+            <p style="font-size: calc(1.2rem + 1.2vw); text-align: center; margin-bottom: 2rem;">Нотаріальні Дії</p>
 
             <div class="notarial-acts-div">
-                <p>Широкий спектр нотаріальних послуг відповідно до Закону України "Про нотаріат"</p>
-                <p>Нотаріус працює з усіма Єдиними та Державними реєстрами та має підключення до Державного земельного кадастру</p>
+                <button class="collapsible"><strong>Довіреності (посвідчення довіреностей)</strong></button>
+                <div class="content">
+                    <ul>
+                        <li class="box">Довіреності видані фізичною особою в тому числі на розпорядження транспортним засобом, придбання транспортного засобу і т.п.</li>
+                        <li class="box">Довіреності за участю юридичної особи</li>
+                        <li class="box">Довіреності у порядку передоручення</li>
+                    </ul>
+                </div>
             </div>
+            
+            <div class="notarial-acts-div">
+                <button class="collapsible"><strong>Заповіти (посвідчення заповітів)</strong></button>
+                <div class="content">
+                    <ul>
+                        <li class="box">Посвідчення заповітів при свідках</li>
+                        <li class="box">Секретний заповіт</li>
+                        <li class="box">Заповіт з умовою</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="notarial-acts-div">
+                <button class="collapsible"><strong>Засвідчення справжності підписів (заяви, протоколи, рішення..)</strong></button>
+                <div class="content">
+                    <ul>
+                        <li class="box">Засвідчення справжності підписів на протоколах, рішенннях, статутах, актах приймання-передачі та заявах</li>
+                        <li class="box">Заява про згоду на виїзд дитини за кордон</li>
+                        <li class="box">Передача заяв</li>
+                        <li class="box">Оформлення спадщини</li>
+                        <li class="box">Заведення та ведення спадкової справи</li>
+                        <li class="box">Посвідчення договору про поділ спадкового майна</li>
+                        <li class="box">Видача свідоцтва про право на спадщину</li>
+                        <li class="box">Видача свідоцтва в разі смерті одного з подружжя</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="notarial-acts-div">
+                <button class="collapsible"><strong>Договори (посвідчення договорів)</strong></button>
+                <div class="content">
+                    <ul>
+                        <li class="box">Договорів купівлі-продажу нерухомого майна</li>
+                        <li class="box">Договорів дарування (квартир, будинків, земельних ділянок, ..)</li>
+                        <li class="box">Договорів міни</li>
+                        <li class="box">Спадкових договорів</li>
+                        <li class="box">Договорів довічного утримання</li>
+                        <li class="box">Договорів оренди транспортних засобів</li>
+                        <li class="box">Шлюбних договорів</li>
+                        <li class="box">Договорів про припинення права на аліменти у зв'язку з набуттям дитиною права власності на нерухоме майно</li>
+                        <li class="box">Договорів про поділ майна</li>
+                        <li class="box">Іпотечних договорів</li>
+                        <li class="box">Договорів застави</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="notarial-acts-div">
+                <button class="collapsible"><strong>Виїзд нотаріуса</strong></button>
+                <div class="content">
+                    <ul>
+                        <li class="box">Виїзд можливий в межах території Івано-Франківської міської територіальної громади за попереднім записом</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="notarial-acts-div"></div>
+
+
         </div>
 
         <div class="info-notary-two">

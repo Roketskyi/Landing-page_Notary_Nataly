@@ -1,16 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Open+Sans&display=swap');
-
-html {
-    font-family: 'Lora', serif;
-}
-
-/* @media only screen and (max-width: 768px) {    
-    
+@media only screen and (max-width: 768px) {
+    .menu-btn {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 10px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
+    #menu-toggle-btn {
+        display: none;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 0.6rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.menu-btn {
+    display: inline-block;
+    margin-right: 16px;
+    user-select: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.menu-btn a {
+    text-decoration: none;
+    color: #000; 
+}
+
+.active a, .menu-btn a:hover {
+    background-color: #c8ac48;
+    color: #fff;
+    transition: all 0.2s ease;
+    border-radius: 25px;
+}
+
+
+/* html {
+    font-family: 'Lora', serif;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu-btn {
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .menu-btn {
+        display: inline;
+        margin: 0 16px 0 0;
+        user-select: none;
     
-} */
+        cursor: pointer;
+    }
+}
+
 
 header {
     display: flex;
@@ -20,13 +81,7 @@ header {
     padding: 2.5rem 0;
 }
 
-.menu-btn {
-    display: inline;
-    margin: 0 16px 0 0;
-    user-select: none;
 
-    cursor: pointer;
-}
 
 .menu-btn a {
     text-decoration: none;
@@ -37,4 +92,4 @@ header {
     color: #c8ac48;
     transition: All 0.2s ease;
 }
-
+ */
