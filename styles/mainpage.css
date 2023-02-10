@@ -60,7 +60,7 @@
     }
 
     .collapsible {
-        font-size: calc(0.75rem + 0.75vw);
+        font-size: calc(0.8rem + 0.8vw);
     }
 }
 
@@ -159,7 +159,7 @@ body {
     color: #3a3a3a;
     background-color: #f4f4f4;
     
-    font-size: calc(0.6rem + 0.6vw);
+    font-size: calc(0.72rem + 0.72vw);
 
     padding: 4rem calc(2rem + 3vw);
     
