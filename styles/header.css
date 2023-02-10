@@ -35,6 +35,93 @@
 }
 
 #menu-toggle-btn {
+  background-color: #fff;
+  color: #c8ac48;
+  padding: 10px 20px;
+  border-radius: 25px; 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+}
+
+#menu-toggle-btn.active {
+  background-color: #c8ac48;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(200, 172, 72, 0.5);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+    padding: 0.6rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.menu-btn {
+    display: inline-block;
+    user-select: none;
+    font-size: 1.2rem;
+    transition: all 0.2s ease;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.menu-btn a {
+    text-decoration: none;
+    color: #000; 
+}
+
+.active a, .menu-btn a:hover {
+    background-color: #c8ac48;
+    color: #fff;
+    transition: all 0.2s ease;
+    border-radius: 25px;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400&family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Lora', serif;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .menu-btn {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #header-menu {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    #header-menu li:not(:first-child) {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #menu-toggle-btn {
+        display: none;
+    }
+
+    .menu-btn {
+        margin-right: 16px;
+    }
+}
+
+#menu-toggle-btn {
   background-color: #c8ac48;
   color: #fff;
   padding: 10px 20px;
@@ -85,4 +172,4 @@ header {
     color: #fff;
     transition: all 0.2s ease;
     border-radius: 25px;
-}
+} */
